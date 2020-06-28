@@ -1,0 +1,16 @@
+
+Car_Purchasing_Regression Models
+
+
+S.no	Model	                                      Accuracy(using r2_score)
+1	    Multiple linear 	                          0.9999999792729631
+2	    Multiple linear with backward	              0.9999999792693921
+3	    Svr	                                        0.9645675328128833
+4	    Random forest	                              0.9372087444524553
+5	    Polynomial	                                0.9985298507794019
+
+
+As multiple linear and polynomial seems overfit Svr and Random Forest are best suitable models
+And on basis of accuracy the best regression model is SVR
+
+
